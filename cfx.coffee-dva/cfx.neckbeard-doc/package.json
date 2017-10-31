@@ -1,0 +1,29 @@
+{
+  "devDependencies": {
+    "@storybook/addon-actions": "^3.2.12",
+    "@storybook/addon-centered": "^3.2.12",
+    "@storybook/addon-events": "^3.2.12",
+    "@storybook/addon-info": "^3.2.12",
+    "@storybook/addon-knobs": "^3.2.12",
+    "@storybook/addon-links": "^3.2.12",
+    "@storybook/addon-notes": "^3.2.12",
+    "@storybook/addon-options": "^3.2.12",
+    "@storybook/addon-storyshots": "^3.2.12",
+    "@storybook/addons": "^3.2.12",
+    "@storybook/react": "^3.2.12",
+    "cfx.simple-build-tool": "^0.0.1",
+    "coffeescript": "next",
+    "ddeyes": "0.0.4",
+    "pug-cli": "0.0.0",
+    "stylus": "^0.54.5"
+  },
+  "dependencies": {
+    "cfx.dom": "^0.0.2",
+    "cfx.neckbeard": "^0.0.1",
+    "cfx.style": "^0.0.3",
+    "color": "^2.0.0",
+    "normalize.css": "^7.0.0",
+    "react-highlight": "^0.10.0",
+    "reset-css": "^2.2.1"
+  }
+}

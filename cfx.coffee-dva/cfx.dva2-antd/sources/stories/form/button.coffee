@@ -1,6 +1,7 @@
 import { storiesOf } from '@storybook/react'
 import { prefixDom } from 'cfx.dom'
-import '../weui.css'
+import '../../../public/assets/weui.css'
+import '../../../public/assets/example.css'
 
 CFX = prefixDom {
   default: {
@@ -38,18 +39,15 @@ export default ->
 
       c_div
         className:
-          '.page__hd'
+          'page__hd'
       ,
 
         c_h1
-          className:
-            'page__title'
+          className: 'page__title'
         , 'Button'
 
         c_p
-          className: [
-            'page__desc'
-          ].join ' '
+          className: 'page__desc'
         , '按钮'
 
       c_div
@@ -101,8 +99,7 @@ export default ->
           ].join ' '
         ,
           c_i
-            className:
-              'weui-loading'
+            className: 'weui-loading'
         , '页面次操作 Loading'
 
         c_a
@@ -128,8 +125,7 @@ export default ->
           ].join ' '
         ,
           c_i
-            className:
-              'weui-loading'
+            className: 'weui-loading'
         , '警告类操作 Loading'
 
         c_a
@@ -141,8 +137,7 @@ export default ->
         , '警告类操作 Disabled'
 
         c_div
-          className:
-            'weui-btn-area'
+          className: 'weui-btn-area'
         ,
 
           c_a

@@ -16,10 +16,12 @@ export default ->
 
   [
     c_h1
+      key: 'title'
       className: 'page__title'
     , 'Button'
 
     c_p
+      key: 'desc'
       className: 'page__desc'
     , '按钮'
   ]

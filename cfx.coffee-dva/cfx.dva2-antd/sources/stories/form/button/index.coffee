@@ -3,11 +3,11 @@ import { prefixDom } from 'cfx.dom'
 import '../../../../public/assets/weui.css'
 import '../../../../public/assets/example.css'
 import WeuiBtnPrimary from './primary'
-# import WeuiBtnNormal from './normal'
-# import WeuiBtnWarn from './warn'
-# import WeuiBtnPlain from './plain'
-# import WeuiBtnMini from './mini'
-# import WeuiBtnTitle from './title'
+import WeuiBtnNormal from './normal'
+import WeuiBtnWarn from './warn'
+import WeuiBtnPlain from './plain'
+import WeuiBtnMini from './mini'
+import WeuiBtnTitle from './title'
 
 CFX = prefixDom {
   default: {
@@ -18,11 +18,11 @@ CFX = prefixDom {
     'p'
   }
   WeuiBtnPrimary
-  # WeuiBtnNormal
-  # WeuiBtnWarn
-  # WeuiBtnPlain
-  # WeuiBtnMini
-  # WeuiBtnTitle
+  WeuiBtnNormal
+  WeuiBtnWarn
+  WeuiBtnPlain
+  WeuiBtnMini
+  WeuiBtnTitle
 }
 
 export default ->
@@ -60,7 +60,7 @@ export default ->
           'page__hd'
       ,
 
-        # c_WeuiBtnTitle {}
+        c_WeuiBtnTitle {}
 
       c_div
         className: [
@@ -72,15 +72,15 @@ export default ->
         # Primary
         c_WeuiBtnPrimary {}
 
-        # c_WeuiBtnNormal {}
+        c_WeuiBtnNormal {}
 
-        # c_WeuiBtnWarn {}
+        c_WeuiBtnWarn {}
 
         c_div
           className: 'weui-btn-area'
         ,
 
-          # c_WeuiBtnPlain {}
+          c_WeuiBtnPlain {}
 
-          # c_WeuiBtnMini {}
+          c_WeuiBtnMini {}
 

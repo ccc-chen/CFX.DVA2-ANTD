@@ -142,7 +142,6 @@ export default ->
 
           c_label
             className: 'weui-agree'
-            for: "weuiAgree"
           ,
 
             WeuiInputAgree {}

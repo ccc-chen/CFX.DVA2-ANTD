@@ -14,6 +14,7 @@ export default ->
 
   [
     c_a
+      key: 'plain-default'
       className: [
         'weui-btn'
         'weui-btn_plain-default'
@@ -21,6 +22,7 @@ export default ->
     , '按钮'
 
     c_a
+      key: 'plain-disabled'
       className: [
         'weui-btn'
         'weui-btn_plain-default'
@@ -29,6 +31,7 @@ export default ->
     , '按钮'
 
     c_a
+      key: 'plain-primary'
       className: [
         'weui-btn'
         'weui-btn_plain-primary'
@@ -36,6 +39,7 @@ export default ->
     , '按钮'
 
     c_a
+      key: 'plain_disabled'
       className: [
         'weui-btn'
         'weui-btn_plain-primary'

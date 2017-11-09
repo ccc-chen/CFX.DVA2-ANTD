@@ -24,6 +24,7 @@ export default ->
 
   [
     c_div
+      key: 'cells_checkbox'
       className: [
         'weui-cells'
         'weui-cells_checkbox'
@@ -31,6 +32,7 @@ export default ->
     ,
 
       c_label
+        key: 'weui-check__label'
         className: [
           'weui-cell'
           'weui-check__label'
@@ -38,26 +40,31 @@ export default ->
       ,
 
         c_div
+          key: 'weui-cell__hd'
           className: 'weui-cell__hd'
         ,
 
           c_input
+            key: 'weui-check'
             className: 'weui-check'
             type: "checkbox"
             name: "checkbox1"
-            checked: "checked"
+            defaultChecked: true
 
           c_i
+            key: 'weui-icon-checked'
             className: 'weui-icon-checked'
           ,
 
         c_div
+          key: 'weui-cell__bd'
           className: 'weui-cell__bd'
 
           c_p {}
           , 'standard is dealt for u.'
 
       c_label
+        key: 'weui-check__label2'
         className: [
           'weui-cell'
           'weui-check__label'
@@ -65,19 +72,22 @@ export default ->
       ,
       
         c_div
+          key: 'weui-cell__hd2'
           className: 'weui-cell__hd'
         ,
 
           c_input
+            key: 'weui-check2'
             className: 'weui-check'
             type: "checkbox"
             name: "checkbox1"
-            checked: "checked"
 
           c_i
+            key: 'weui-icon-checked2'
             className: 'weui-icon-checked'
 
         c_div
+          key: 'weui-cell__bd'
           className: 'weui-cell__bd'
         ,
 
@@ -85,6 +95,7 @@ export default ->
           , 'standard is dealicient for u.'
 
       c_a
+        key: 'weui-cell_link'
         className: [
           'weui-cell'
           'weui-cell_link'
@@ -92,6 +103,7 @@ export default ->
       ,
 
         c_div
+          key: 'more'
           className: 'weui-cell__bd'
         , '添加更多'
   ]

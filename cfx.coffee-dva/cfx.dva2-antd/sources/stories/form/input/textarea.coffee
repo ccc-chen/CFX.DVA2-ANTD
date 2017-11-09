@@ -20,6 +20,7 @@ export default ->
 
   [
         c_div
+          key: 'weui-cells'
           className: [
             'weui-cells'
             'weui-cells_form'
@@ -27,20 +28,24 @@ export default ->
         ,
 
           c_div
+            key: 'weui-cell'
             className: 'weui-cell'
           ,
 
             c_div
+              key: 'weui-cell__bd'
               className: 'weui-cell__bd'
             
             ,
 
               c_textarea
+                key: 'weui-textarea'
                 className: 'weui-textarea'
                 placeholder: "请输入文本"
                 rows: "3"
           
               c_div
+                key: 'weui-textarea-counter'
                 className: 'weui-textarea-counter'
               ,
 

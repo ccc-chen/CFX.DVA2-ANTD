@@ -24,6 +24,7 @@ export default ->
 
   [
     c_div
+      key: 'cells_radio'
       className: [
         'weui-cells'
         'weui-cells_radio'
@@ -31,6 +32,7 @@ export default ->
     ,
 
       c_label
+        key: 'label'
         className: [
           'weui-cell'
           'weui-check__label'
@@ -38,6 +40,7 @@ export default ->
       ,
 
         c_div
+          key: 'cell__bd'
           className: 'weui-cell__bd'
         ,
 
@@ -45,19 +48,23 @@ export default ->
           , 'cell standard'
 
         c_div
+          key: 'cell__ft'
           className: 'weui-cell__ft'
         ,
 
           c_input
+            key: 'weui-check'
             type: 'radio'
             name: 'radio1'
             className:  'weui-check'
 
           c_span
+            key: 'icon-checked'
             className: 'weui-icon-checked'
         ,
 
       c_label
+        key: 'cell_label'
         className:[
           'weui-cell'
           'weui-check__label'
@@ -65,26 +72,30 @@ export default ->
       ,
 
         c_div
-          className:   'weui-cell__bd'
+          key: 'cell__bd'
+          className: 'weui-cell__bd'
         ,
             c_p {}
             , 'cell standard'
 
         c_div
+          key: 'cell_ft'
           className: 'weui-cell__ft'
         ,
 
           c_input
+            key: 'checked'
             className: 'weui-check'
             type: "radio"
             name: "radio1"
-            checked: "checked"
+            defaultChecked: "true"
 
           c_span
             className: 'weui-icon-checked'
           ,
 
       c_a
+        key: 'cell_link'
         className: [
           'weui-cell'
           'weui-cell_link'
@@ -92,6 +103,7 @@ export default ->
       ,
 
         c_div
+          key: 'more'
           className: 'weui-cell__bd'
         , '添加更多'
   ]          

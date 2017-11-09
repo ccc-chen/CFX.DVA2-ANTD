@@ -2,24 +2,26 @@ import { prefixDom } from 'cfx.dom'
 
 CFX = prefixDom {
   default: {
-    'div'
     'h1'
+    'p'
   }
 }
 
 export default ->
 
   {
-    c_div
     c_h1
+    c_p
   } = CFX
 
-  c_div
-    className: 'page__hd'
-  ,
+  [
     c_h1
+      key: 'title'
       className: 'page__title'
-      style:
-        fontSize: '21px'
-        color: '#c7c7cc'
-    , 'Todos'
+    , 'Slider'
+
+    c_p
+      key: 'desc'
+      className: 'page__desc'
+    , '滑块'
+  ]

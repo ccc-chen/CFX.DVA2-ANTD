@@ -16,6 +16,7 @@ export default ->
 
   [
     c_a
+      key: 'default'
       className: [
         'weui-btn'
         'weui-btn_default'
@@ -23,6 +24,7 @@ export default ->
     , '页面次要操作 Normal'
 
     c_a
+      key: 'loading'
       className: [
         'weui-btn'
         'weui-btn_default'
@@ -34,6 +36,7 @@ export default ->
     , '页面次操作 Loading'
 
     c_a
+      key: 'disabled'
       className: [
         'weui-btn'
         'weui-btn_disabled'

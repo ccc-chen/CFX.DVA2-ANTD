@@ -16,13 +16,15 @@ export default ->
 
   [
     c_a
+      key: 'btn_primary'
       className: [
         'weui-btn'
         'weui-btn_primary'
       ].join ' '
     , '页面主操作 Normal'
-
+  
     c_a
+      key: 'btn_loading'
       className: [
         'weui-btn'
         'weui-btn_primary'
@@ -30,10 +32,12 @@ export default ->
       ].join ' '
     ,
       c_i
+        key: 'loading'
         className: 'weui-loading'
     , '页面主操作 Loading'
 
     c_a
+      key: 'btn_disabled'
       className: [
         'weui-btn'
         'weui-btn_disabled'

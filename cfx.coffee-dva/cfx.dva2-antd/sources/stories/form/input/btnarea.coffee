@@ -12,11 +12,9 @@ export default ->
     c_a
   } = CFX
 
-  [
-    c_a
-      className:[
-        'weui-btn'
-        'weui-btn_primary'
-      ].join ' '  
-    , '确定'
-  ]          
+  c_a
+    className:[
+      'weui-btn'
+      'weui-btn_primary'
+    ].join ' '
+  , '确定'

@@ -20,48 +20,45 @@ export default ->
     c_div
   } = CFX
 
-  [
-    c_li {}
+  c_li {}
+  ,
+    c_label
+      className: [
+        'weui-cell'
+        'weui-check__label'
+      ].join ' '
     ,
 
-      c_label
-        className: [
-          'weui-cell'
-          'weui-check__label'
-        ].join ' '
+      c_div
+        className: 'weui-cell__bd'
       ,
 
-        c_div
-          className: 'weui-cell__bd'
-        ,
+        c_p {}
+        , 'All'
 
-          c_p
-          , 'All'
+    c_label
+      className: [
+        'weui-cell'
+        'weui-check__label'
+      ].join ' '
+    ,
 
-      c_label
-        className: [
-          'weui-cell'
-          'weui-check__label'
-        ].join ' '
+      c_div
+        className: 'weui-cell__bd'
       ,
 
-        c_div
-          className: 'weui-cell__bd'
-        ,
+        c_p {}
+        , 'Active'
 
-          c_p {}
-          , 'Active'
+    c_label
+      className:[
+        'weui-cell'
+        'weui-check__label'
+      ].join ' '
 
-      c_label
-        className:[
-          'weui-cell'
-          'weui-check__label'
-        ].join ' '
-
-        c_div
-          className: 'weui-cell__bd'
-        ,
+      c_div
+        className: 'weui-cell__bd'
+      ,
 
         c_p {}
         , 'Completed'
-  ]            

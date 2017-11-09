@@ -14,6 +14,7 @@ export default ->
 
   [
     c_a
+      key: 'primary'
       className: [
         'weui-btn'
         'weui-btn_mini'
@@ -22,6 +23,7 @@ export default ->
     , '按钮'
 
     c_a
+      key: 'default'
       className: [
         'weui-btn'
         'weui-btn_mini'
@@ -30,6 +32,7 @@ export default ->
     , '按钮'
 
     c_a
+      key: 'warn'
       className: [
         'weui-btn'
         'weui-btn_mini'

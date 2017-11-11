@@ -12,7 +12,7 @@ import Uploader from '../weui/form/uploader/index'
 import Artcle from '../weui/basic_components/article/index'
 import Badge from '../weui/basic_components/badge/index'
 import Flex from '../weui/basic_components/flex/index'
-# import Footer from '../weui/basic_components/footer/index'
+import Footer from '../weui/basic_components/footer/index'
 # import Gallery from '../weui/basic_components/gallery/index'
 # import Grid from '../weui/basic_components/grid/index'
 # import Icons from '../weui/basic_components/icons/index'
@@ -32,7 +32,7 @@ Todos()
 Artcle()
 Badge()
 Flex()
-# Footer()
+Footer()
 # Gallery()
 # Grid()
 # Icons()
